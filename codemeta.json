@@ -1,0 +1,94 @@
+{
+    "@context": [
+        "https://doi.org/10.5063/schema/codemeta-2.0",
+        "http://schema.org",
+        "https://w3id.org/software-types"
+    ],
+    "@type": "SoftwareSourceCode",
+    "identifier": "labo-components",
+    "name": "Labo Components",
+    "version": "6.10.4",
+    "description": "The Labo Components handle the dynamic front-end for the Clariah Media Suite, such as showing search results",
+	"url": "https://mediasuite.clariah.nl/",
+    "producer": [
+        {
+            "@id": "https://www.beeldengeluid.nl/",
+            "@type": "Organization",
+            "name": "Netherlands Institute for Sound and Vision",
+            "url": "https://www.beeldengeluid.nl/",
+                "location": {
+                    "@type": "Place",
+                    "name": "Hilversum"
+                }
+        }
+    ],
+    "author": [
+		{
+			"@id": "https://github.com/jblom",
+			"@type": "Person",
+			"givenName": "Jaap",
+			"familyName": "Blom",
+			"email": "",
+			"affiliation": { "@id": "https://www.beeldengeluid.nl/" }
+		}
+	],
+	"sourceOrganization": { "@id": "https://www.beeldengeluid.nl/" },
+	"programmingLanguage": {
+		"@type": "ComputerLanguage",
+		"identifier": "javascript",
+		"name": "javascript"
+	},
+	"operatingSystem": "Linux",
+	"codeRepository": "https://github.com/beeldengeluid/clariah-mediasuite",
+    "softwareRequirements": [
+        {
+			"@type": "SoftwareLibrary",
+			"identifier": "react",
+			"name": "react",
+      "version": "18.x"
+		},
+        {
+			"@type": "SoftwareLibrary",
+			"identifier": "npm",
+			"name": "npm",
+      "version": "19.x"
+		}
+	],
+	"funding": [
+		{
+			"@type": "Grant",
+			"name": "CLARIAH-CORE (NWO grant 184.033.101)",
+			"url": "https://www.clariah.nl",
+            "funder": {
+                "@type": "Organization",
+                "name": "NWO", 
+                "url": "https://www.nwo.nl"
+            }
+        },
+        {
+            "@type": "Grant",
+            "name": "CLARIAH-PLUS (NWO grant 184.034.023)",
+            "funder": {
+                "@type": "Organization",
+                "name": "NWO", 
+                "url": "https://www.nwo.nl"
+            }
+        }
+	],
+	"readme": "https://github.com/CLARIAH/labo-components/blob/main/README.md",
+	"issueTracker": "https://github.com/beeldengeluid/labo-components/issues",
+	"releaseNotes": "https://mediasuite.clariah.nl/documentation/release-notes",
+	"developmentStatus": [ "https://www.repostatus.org/#active", "https://w3id.org/research-technology-readiness-levels#Level9Proven" ],
+	"keywords":  [ "front-end", "search", "annotation"],    
+    "targetProduct": [
+        {
+            "@type": "SoftwareLibrary",
+            "executableName": "labo-components",
+            "name": "labo-components",
+            "runtimePlatform": [ "Linux"],
+            "description": "The Labo Components handle the dynamic front-end for the Clariah Media Suite, such as showing search results"
+        }
+    ],
+	"dateCreated": "2023-11-21",
+	"dateModified": "2023-11-21"
+}
