@@ -28,7 +28,6 @@
 			"@type": "Person",
 			"givenName": "Jaap",
 			"familyName": "Blom",
-			"email": "",
 			"affiliation": { "@id": "https://www.beeldengeluid.nl/" }
 		}
 	],
