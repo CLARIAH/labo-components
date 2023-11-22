@@ -93,13 +93,14 @@
     ],
     "targetProduct": [
         {
-            "@type": "SoftwareLibrary",
-            "executableName": "labo-components",
-            "name": "labo-components",
-            "runtimePlatform": [
-                "Linux"
-            ],
-            "description": "The Labo Components handle the dynamic front-end for the Clariah Media Suite, such as showing search results"
+            "@type": "WebApplication",
+            "name": "CLARIAH Media Suite",
+            "url": "https://mediasuite.clariah.nl",
+            "provider": {
+                "@type": "Organization",
+                "name": "Netherlands Institute for Sound and Vision",
+                "url": "https://beeldengeluid.nl"
+            }
         }
     ],
     "dateCreated": "2023-11-21",
